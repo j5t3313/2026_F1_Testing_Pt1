@@ -28,7 +28,7 @@ python run_analysis.py
 
 Outputs are saved to `output/`.
 
-To run individual modules or customize parameters, edit `config.py` or use the Jupyter notebook.
+To run individual modules or customize parameters, edit `config.py` 
 
 ## Configuration
 
