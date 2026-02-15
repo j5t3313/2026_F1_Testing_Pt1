@@ -137,7 +137,7 @@ def plot_headline_vs_median(laps):
 
     ax.set_xlabel("Gap: Median to Fastest Lap (seconds)")
     ax.set_ylabel("Median Lap Time (seconds)")
-    ax.set_title("Programme Focus: Headline Time vs Typical Running Pace")
+    ax.set_title("Program Focus: Headline Time vs Typical Running Pace")
     ax.invert_yaxis()
 
     add_watermark(fig)

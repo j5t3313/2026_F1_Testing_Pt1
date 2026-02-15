@@ -24,7 +24,7 @@ def run():
     clean_2025 = get_clean_laps(laps_2025)
     print(f"  {len(laps_2025)} total laps, {len(clean_2025)} after filtering")
 
-    print("\n--- Module 1: Reliability & Programme Maturity ---")
+    print("\n--- Module 1: Reliability & Program Maturity ---")
     rel_figs = reliability.generate_all(laps_2026)
     for name, fig in rel_figs.items():
         if fig is not None:

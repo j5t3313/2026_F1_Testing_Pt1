@@ -77,7 +77,7 @@ def plot_laps_heatmap(laps):
                     fontsize=13, fontweight="bold", color=text_color)
 
     cbar = fig.colorbar(im, ax=ax, shrink=0.8, label="Laps Completed")
-    ax.set_title("Programme Maturity: Laps Completed Per Day")
+    ax.set_title("Program Maturity: Laps Completed Per Day")
     add_watermark(fig)
     fig.tight_layout()
     return fig
