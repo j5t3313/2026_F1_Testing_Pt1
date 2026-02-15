@@ -92,7 +92,7 @@ def get_compound_color(compound):
     return COMPOUND_COLORS.get(str(compound).upper(), COMPOUND_COLORS["UNKNOWN"])
 
 
-def add_watermark(fig, text="@SennaSteele"):
+def add_watermark(fig, text="@formulasteele"):
     fig.text(
         0.99, 0.01, text,
         fontsize=9, color="#AAAAAA",
